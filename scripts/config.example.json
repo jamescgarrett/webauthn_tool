@@ -1,0 +1,11 @@
+{
+  "domain": "",
+  "realm": "",
+  "clientID": "",
+  "email": "",
+  "username": "",
+  "phone_number": "",
+  "organization": "",
+  "useOrganization": false,
+  "debug": false
+}
