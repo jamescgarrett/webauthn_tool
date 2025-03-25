@@ -1,5 +1,5 @@
-# Native Passkeys Development Tool
-This is a tool to help with Native Passkeys development. It currently handles the following:
+# Auth0 Native Passkeys Development Tool
+This is a tool to help with Native Passkeys development locally. It currently handles the following:
 - Native Passkey Register
   - Calls `/passkey/register` and then `/oath/token`
 - Native Passkey Challenge
@@ -30,7 +30,7 @@ This file contains your tenant details.
 
 ## users.json
 
-This file will keep track of your registered users and passkeys. You can also manually enter details by collecting the `credential_id` from the mongo database, so that you can use existing passkeys within your developement envrionment.
+This file will keep track of your registered users and passkeys (be careful with this file, do not suggest keeping it around).
 ```json
 [
   {
